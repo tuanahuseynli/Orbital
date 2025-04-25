@@ -6,9 +6,6 @@ Track the ISS in real-time, view today's NASA Astronomy Picture of the Day, find
 - **Real-Time ISS Tracker**  
   See the live position of the International Space Station on a world map using Leaflet.js.
 
-- **Next ISS Flyover Time**  
-  Automatically detects your location and tells you the next ISS pass time overhead.
-
 - **NASA Astronomy Picture of the Day (APOD)**  
   Displays the daily space-themed photo directly from NASA’s APOD API with description and title.
 
