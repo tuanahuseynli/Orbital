@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Space Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <h1>⋆˚꩜｡𐙚 space dashboard 𓍯⋆ ༘˚⋆𐙚｡</h1>
+
+    <h2>⋆𐙚｡⋆ live ISS location ✧˚</h2>
+    <div id="map"></div>
+    <p id="coords">Loading ISS coordinates...</p>
+
+    <h2>⋆𐙚｡⋆ NASA astronomy picture of the day ✧˚</h2>
+    <div id="apod">
+        <img id="apod-img" src="" alt="NASA APOD" />
+        <p id="apod-title"></p>
+        <p id="apod-desc"></p>
+    </div>
+    
+    <h2>⋆𐙚｡⋆ current Mars weather (Elysium Planitia) ✧˚</h2>
+        <div id="mars-weather">
+            <p id="mars-temp">Loading...</p>
+            <p id="mars-pressure"></p>
+            <p id="mars-season"></p>
+        </div>
+    
+        <canvas id="starfield"></canvas>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
